@@ -1,11 +1,12 @@
 import './App.css'
+import ContactFormModal from './components/container/ContactFormModal'
 
 function App() {
 
   return (
     <>
-      <div>
-        test
+      <div className='bg-blue-950 h-dvh'>
+        <ContactFormModal/>
       </div>
     </>
   )
